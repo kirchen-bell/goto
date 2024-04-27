@@ -6,7 +6,7 @@
 
     <script>
         const url = new URL(window.location.href);
-        const targ = url.params.get("goto")
+        const targ = url.searchParams.get("goto")
         window.location.href = targ
     </script>
 </head>
